@@ -14,7 +14,7 @@ function slack($message, $channel)
 {
     $ch = curl_init("https://slack.com/api/chat.postMessage");
     $data = http_build_query([
-        "token" => "YOUR_API_TOKEN",
+        "token" => "xoxb-10276727044-1687692402433-946yyxmVek6G5UPC6IR1FN79",
     	"channel" => $channel, //"#mychannel",
     	"text" => $message, //"Hello, Foo-Bar channel message.",
     	"username" => "MySlackBot",
